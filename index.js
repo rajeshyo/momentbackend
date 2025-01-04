@@ -27,6 +27,7 @@ app.get('/users', (req, res) => {
   res.json(db.users);
 });
 
+
 // ✅ POST - Add a new user
 app.post('/users', (req, res) => {
   const db = readDB();
