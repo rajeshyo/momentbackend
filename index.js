@@ -2,10 +2,17 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-
+const cors = require('cors');
 const app = express();
 const PORT = 3000;
 const dbPath = path.join(__dirname, 'db.json');
+
+// ✅ Enable CORS (Allow requests from any origin)
+app.use(cors({
+  origin: '*', // Allows all origins
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type']
+}));
 
 // Middleware to parse JSON request body
 app.use(bodyParser.json());
