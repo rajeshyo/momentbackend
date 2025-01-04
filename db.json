@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "rajesh",
+      "facebook": "fbid",
+      "insta": "instaid",
+      "status": false
+    },
+    {
+      "id": 2,
+      "username": "rajesh",
+      "facebook": "fbid",
+      "insta": "instaid",
+      "status": false
+    },
+    {
+      "id": 3,
+      "username": "rajesh",
+      "facebook": "fbid",
+      "insta": "instaid",
+      "status": false
+    },
+    {
+      "id": 4,
+      "username": "rajesh",
+      "facebook": "fbid",
+      "insta": "instaid",
+      "status": false
+    },
+    {
+      "id": 5,
+      "username": "rajesh",
+      "facebook": "fbid",
+      "insta": "instaid",
+      "status": false
+    }
+  ]
+}
